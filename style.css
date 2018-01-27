@@ -127,7 +127,7 @@ p {
 }
 
 
-/* Media Queries */
+/* Media Queries to make the page responsive */
 
 @media(min-width: 700px) {
     .grid {
@@ -153,6 +153,7 @@ p {
         grid-column: span 2;
     }
 
+    /* using flex */
     #section-b ul {
         display: flex;
         justify-content: space-around;
